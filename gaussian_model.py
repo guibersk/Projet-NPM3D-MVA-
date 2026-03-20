@@ -166,9 +166,9 @@ class GaussianModel:
         ).cuda()
         
         self.prob_grow = True
-        self.prob_grow_low_mul = 0.1          # seuil bas relatif au seuil de gradient
-        self.prob_grow_obs_bonus = 1.5        # bonus max pour faible supervision
-        self.prob_grow_min_obs_ratio = 0.75   # en-dessous, on garde une petite chance
+        self.prob_grow_low_mul = 0.5          # seuil bas relatif au seuil de gradient
+        self.prob_grow_obs_bonus = 0.5        # bonus max pour faible supervision
+        self.prob_grow_min_obs_ratio = 0.25   # en-dessous, on garde une petite chance
 
 
     def eval(self):
