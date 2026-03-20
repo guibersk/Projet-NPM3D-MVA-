@@ -13,7 +13,11 @@ This repository contains the code associated with the project report.
   defined in `__init__`, and the stochastic growing logic is activated when
   `self.prob_grow = True`.
 - `Scaffold_gs_probabilistic.ipynb` — Experiment notebook (see below).
-- 
+- `south_building_5k_probgrow_false_20prct.onnx` — Example of a .onnx format file
+  containing a representation obtained with our code. It can be vizualised with
+  the Visionary Viewer at
+  https://visionary-laboratory.github.io/visionary/index_visionary.html, as
+  explained below.
 
 ## How to Reproduce the Experiments
 
